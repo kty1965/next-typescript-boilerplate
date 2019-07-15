@@ -1,1 +1,1 @@
-# next-typescript-boilerplate
+# wi-homepage

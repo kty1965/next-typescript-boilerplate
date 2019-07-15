@@ -1,0 +1,45 @@
+{
+  "name": "wi-homepage",
+  "scripts": {
+    "dev": "next ./src",
+    "build": "next build ./src",
+    "start": "next start ./src",
+    "lint": "eslint --ext .jsx,.js,.ts,.tsx ./"
+  },
+  "private": true,
+  "version": "0.0.0",
+  "description": "wi homepage",
+  "author": "huy <huy@zoyi.co",
+  "license": "",
+  "dependencies": {
+    "@zeit/next-bundle-analyzer": "^0.1.2",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "next": "^8.1.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-runtime-dotenv": "^1.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/next": "^8.0.6",
+    "@types/node": "^12.0.12",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-standard": "^13.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-standard": "^4.0.0",
+    "typescript": "^3.5.3"
+  }
+}
